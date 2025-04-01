@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Styles/NavBar.css'
 import reactLogo from '../assets/react.svg'
+import Dropdown from './Dropdown/Dropdown.jsx'
 function NavigationBar() {
 
   return (
@@ -10,7 +11,7 @@ function NavigationBar() {
                 <li><a href="https://react.dev" target="_blank">
                 <img src={reactLogo} className="logo react" alt="React logo" />
                 </a></li>
-                <li className="linked"><a href= "#Projects">Projects</a></li>
+                <li className="linked"><a href= "#Projects"><Dropdown buttonText="ProjeDropdown button"/></a></li>
                 <li className="linked"><a href= "#About Me">About Me</a></li>
                 <li className="linked"><a href= "#All tools used">All tools used</a></li>
             </ul>

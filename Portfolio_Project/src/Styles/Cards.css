@@ -1,0 +1,38 @@
+h1, p{
+    text-align: center;
+}
+h1{
+    padding: 30px;
+    color:rgb(169, 169, 169);
+}
+
+
+button{
+    color: whitesmoke;
+    background-color: rgb(28,21,34);
+    text-align: center;
+    display: inline-block;
+    width: 4%;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+}
+#buttons{
+    text-align: center;
+}
+.container{
+    align-items: center;
+    overflow: hidden;
+}
+.card{
+    transition: 0.3s;
+    border-radius: 9px;
+    border: solid 5px black;
+    background-color: rgb(197, 197, 197);
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgb(248, 212, 255);
+}
